@@ -48,6 +48,7 @@
 		ACBB7221278EF5F4004CCBC4 /* MonthlyRainfallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB7220278EF5F4004CCBC4 /* MonthlyRainfallView.swift */; };
 		ACBD526F2910073800D24741 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD526E2910073800D24741 /* LocationManager.swift */; };
 		ACC09F2428A28DE600095E2E /* DailyRainRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC09F2328A28DE600095E2E /* DailyRainRowView.swift */; };
+		ACC0FD09291F7A3800459B62 /* DownloadRainfallFromVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0FD08291F7A3800459B62 /* DownloadRainfallFromVC.swift */; };
 		ACD0567C283F76C800ACEE4F /* DemandRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD0567B283F76C800ACEE4F /* DemandRowView.swift */; };
 		ACDE82702821498A00F144A4 /* PerformanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE826F2821498A00F144A4 /* PerformanceModel.swift */; };
 		ACE56CA72859E26D00393BB2 /* WaterDiaryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE56CA62859E26D00393BB2 /* WaterDiaryRowView.swift */; };
@@ -102,6 +103,7 @@
 		ACBB7220278EF5F4004CCBC4 /* MonthlyRainfallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyRainfallView.swift; sourceTree = "<group>"; };
 		ACBD526E2910073800D24741 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		ACC09F2328A28DE600095E2E /* DailyRainRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRainRowView.swift; sourceTree = "<group>"; };
+		ACC0FD08291F7A3800459B62 /* DownloadRainfallFromVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadRainfallFromVC.swift; sourceTree = "<group>"; };
 		ACD0567B283F76C800ACEE4F /* DemandRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemandRowView.swift; sourceTree = "<group>"; };
 		ACDE826F2821498A00F144A4 /* PerformanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceModel.swift; sourceTree = "<group>"; };
 		ACE56CA62859E26D00393BB2 /* WaterDiaryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDiaryRowView.swift; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 		AC7A97F42766579200C8EB4D /* SimTanka-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				ACC0FD07291F79A100459B62 /* Rainfall-VC */,
 				AC53EE442858B2DC0061E641 /* Water Diary */,
 				AC01C7A827DE088000AA099C /* Performance */,
 				AC080D8727B14B5B002651D6 /* RWHS */,
@@ -274,6 +277,14 @@
 				ACB97A5A2779FF3C00A1699E /* PrefernceView.swift */,
 			);
 			path = "User Preferences";
+			sourceTree = "<group>";
+		};
+		ACC0FD07291F79A100459B62 /* Rainfall-VC */ = {
+			isa = PBXGroup;
+			children = (
+				ACC0FD08291F7A3800459B62 /* DownloadRainfallFromVC.swift */,
+			);
+			path = "Rainfall-VC";
 			sourceTree = "<group>";
 		};
 		ACEBF5BB279062CB00023043 /* Utility */ = {
@@ -401,6 +412,7 @@
 				ACC09F2428A28DE600095E2E /* DailyRainRowView.swift in Sources */,
 				ACB97A5F277A20B900A1699E /* MapViewModel.swift in Sources */,
 				AC7A97F62766579200C8EB4D /* SimTanka_iOSApp.swift in Sources */,
+				ACC0FD09291F7A3800459B62 /* DownloadRainfallFromVC.swift in Sources */,
 				AC8E58F7276CC0B000555811 /* TankaUnitsModel.swift in Sources */,
 				AC78850C283E49EA001E4C9A /* DailyBudgetView.swift in Sources */,
 				AC7CF6C8290EB0520059920C /* LocationRWHSandMetView.swift in Sources */,
