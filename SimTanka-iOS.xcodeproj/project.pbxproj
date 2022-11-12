@@ -7,22 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC01C7AA27DE08A100AA099C /* PerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC01C7A927DE08A100AA099C /* PerformanceView.swift */; };
+		AC080D8927B14BAA002651D6 /* RWHSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC080D8827B14BAA002651D6 /* RWHSView.swift */; };
+		AC080D8B27B15084002651D6 /* RWHSviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC080D8A27B15084002651D6 /* RWHSviewModel.swift */; };
+		AC0E20AA276767B900E456E8 /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E20A9276767B900E456E8 /* StartPage.swift */; };
+		AC16A7D5276779D000488297 /* DownLoadRainfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16A7D4276779D000488297 /* DownLoadRainfall.swift */; };
+		AC16A7D727677D7F00488297 /* DailyRainfallStruc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16A7D627677D7F00488297 /* DailyRainfallStruc.swift */; };
+		AC178241291B976A00267BC6 /* RainfallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC178240291B976A00267BC6 /* RainfallView.swift */; };
+		AC244D6228674FCD0030261E /* RwhsPerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC244D6128674FCD0030261E /* RwhsPerformanceView.swift */; };
+		AC294CD32783476C0010860A /* NameLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC294CD22783476C0010860A /* NameLocationView.swift */; };
+		AC3AF701276F5C6B009BF379 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3AF700276F5C6B009BF379 /* LocationModel.swift */; };
+		AC3AF703276F5D12009BF379 /* MetStationNOAA.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3AF702276F5D12009BF379 /* MetStationNOAA.swift */; };
+		AC3AF705276F5DE1009BF379 /* MetStationNetworkNOAA.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3AF704276F5DE1009BF379 /* MetStationNetworkNOAA.swift */; };
+		AC3AF707276F779F009BF379 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3AF706276F779F009BF379 /* LocationViewModel.swift */; };
+		AC527DCA28A1225200B382B9 /* DailyRainfallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC527DC928A1225200B382B9 /* DailyRainfallView.swift */; };
+		AC53EE462858B3A60061E641 /* WaterDiaryAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC53EE452858B3A60061E641 /* WaterDiaryAddView.swift */; };
+		AC584E90279AEB6E0070CF44 /* MontlyRainRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC584E8F279AEB6E0070CF44 /* MontlyRainRowView.swift */; };
+		AC6CE4E827AA961A00E998AA /* SimTanka.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CE4E727AA961A00E998AA /* SimTanka.swift */; };
+		AC6D1C95286B1651005F5D36 /* StartUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6D1C94286B1651005F5D36 /* StartUpView.swift */; };
+		AC78850C283E49EA001E4C9A /* DailyBudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC78850B283E49EA001E4C9A /* DailyBudgetView.swift */; };
+		AC79EE0D27D8D3C30008CD71 /* DailyWaterBudget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC79EE0C27D8D3C30008CD71 /* DailyWaterBudget.swift */; };
 		AC7A97F62766579200C8EB4D /* SimTanka_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7A97F52766579200C8EB4D /* SimTanka_iOSApp.swift */; };
-		AC7A97F82766579200C8EB4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7A97F72766579200C8EB4D /* ContentView.swift */; };
 		AC7A97FA2766579300C8EB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7A97F92766579300C8EB4D /* Assets.xcassets */; };
 		AC7A97FD2766579300C8EB4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7A97FC2766579300C8EB4D /* Preview Assets.xcassets */; };
 		AC7A97FF2766579300C8EB4D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7A97FE2766579300C8EB4D /* Persistence.swift */; };
 		AC7A98022766579300C8EB4D /* SimTanka_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC7A98002766579300C8EB4D /* SimTanka_iOS.xcdatamodeld */; };
+		AC7BA816278C4F42006F7A00 /* DisplayRainNOAAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7BA815278C4F42006F7A00 /* DisplayRainNOAAView.swift */; };
+		AC7CF6C8290EB0520059920C /* LocationRWHSandMetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7CF6C7290EB0520059920C /* LocationRWHSandMetView.swift */; };
+		AC8670BA2916915F00608933 /* FindMetStationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8670B92916915F00608933 /* FindMetStationModel.swift */; };
+		AC8E58F2276CB3B500555811 /* SetUpLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8E58F1276CB3B500555811 /* SetUpLocationView.swift */; };
+		AC8E58F7276CC0B000555811 /* TankaUnitsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8E58F6276CC0B000555811 /* TankaUnitsModel.swift */; };
+		AC94F89228536EFA00B31361 /* PerformanceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94F89128536EFA00B31361 /* PerformanceCardView.swift */; };
+		AC9B138F27BD13CD00D0F443 /* MonthlyPerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B138E27BD13CD00D0F443 /* MonthlyPerformanceView.swift */; };
+		AC9B139127BD167A00D0F443 /* PerformanceRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B139027BD167A00D0F443 /* PerformanceRowView.swift */; };
+		ACB58127285DB62500F1C84A /* WaterDiaryEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB58126285DB62500F1C84A /* WaterDiaryEditView.swift */; };
+		ACB8F294291249B100240E6F /* RWHSMetLocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB8F293291249B100240E6F /* RWHSMetLocationViewModel.swift */; };
+		ACB97A5B2779FF3C00A1699E /* PrefernceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB97A5A2779FF3C00A1699E /* PrefernceView.swift */; };
+		ACB97A5D277A1D5500A1699E /* SimTankaMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB97A5C277A1D5500A1699E /* SimTankaMapView.swift */; };
+		ACB97A5F277A20B900A1699E /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB97A5E277A20B900A1699E /* MapViewModel.swift */; };
+		ACBB7221278EF5F4004CCBC4 /* MonthlyRainfallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBB7220278EF5F4004CCBC4 /* MonthlyRainfallView.swift */; };
+		ACBD526F2910073800D24741 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD526E2910073800D24741 /* LocationManager.swift */; };
+		ACC09F2428A28DE600095E2E /* DailyRainRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC09F2328A28DE600095E2E /* DailyRainRowView.swift */; };
+		ACD0567C283F76C800ACEE4F /* DemandRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD0567B283F76C800ACEE4F /* DemandRowView.swift */; };
+		ACDE82702821498A00F144A4 /* PerformanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDE826F2821498A00F144A4 /* PerformanceModel.swift */; };
+		ACE56CA72859E26D00393BB2 /* WaterDiaryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE56CA62859E26D00393BB2 /* WaterDiaryRowView.swift */; };
+		ACE56CA92859EA4E00393BB2 /* WaterDiaryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE56CA82859EA4E00393BB2 /* WaterDiaryListView.swift */; };
+		ACE56CAB2859EF2500393BB2 /* WaterDiaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE56CAA2859EF2500393BB2 /* WaterDiaryModel.swift */; };
+		ACEBF5BD279062E900023043 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEBF5BC279062E900023043 /* Helper.swift */; };
+		ACF3DC772796ECB00019EB13 /* AnnualRainRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF3DC762796ECB00019EB13 /* AnnualRainRowView.swift */; };
+		ACFC09E728364767007714F8 /* DemandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC09E628364767007714F8 /* DemandModel.swift */; };
+		ACFC2F93276B5EE000F665E8 /* SettingUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC2F92276B5EE000F665E8 /* SettingUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC01C7A927DE08A100AA099C /* PerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceView.swift; sourceTree = "<group>"; };
+		AC080D8827B14BAA002651D6 /* RWHSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWHSView.swift; sourceTree = "<group>"; };
+		AC080D8A27B15084002651D6 /* RWHSviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWHSviewModel.swift; sourceTree = "<group>"; };
+		AC0E20A9276767B900E456E8 /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; };
+		AC16A7D4276779D000488297 /* DownLoadRainfall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownLoadRainfall.swift; sourceTree = "<group>"; };
+		AC16A7D627677D7F00488297 /* DailyRainfallStruc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRainfallStruc.swift; sourceTree = "<group>"; };
+		AC178240291B976A00267BC6 /* RainfallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainfallView.swift; sourceTree = "<group>"; };
+		AC244D6128674FCD0030261E /* RwhsPerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RwhsPerformanceView.swift; sourceTree = "<group>"; };
+		AC294CD22783476C0010860A /* NameLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameLocationView.swift; sourceTree = "<group>"; };
+		AC3AF700276F5C6B009BF379 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		AC3AF702276F5D12009BF379 /* MetStationNOAA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetStationNOAA.swift; sourceTree = "<group>"; };
+		AC3AF704276F5DE1009BF379 /* MetStationNetworkNOAA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetStationNetworkNOAA.swift; sourceTree = "<group>"; };
+		AC3AF706276F779F009BF379 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		AC527DC928A1225200B382B9 /* DailyRainfallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRainfallView.swift; sourceTree = "<group>"; };
+		AC53EE452858B3A60061E641 /* WaterDiaryAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDiaryAddView.swift; sourceTree = "<group>"; };
+		AC584E8F279AEB6E0070CF44 /* MontlyRainRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontlyRainRowView.swift; sourceTree = "<group>"; };
+		AC6CE4E727AA961A00E998AA /* SimTanka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimTanka.swift; sourceTree = "<group>"; };
+		AC6D1C94286B1651005F5D36 /* StartUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartUpView.swift; sourceTree = "<group>"; };
+		AC78850B283E49EA001E4C9A /* DailyBudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyBudgetView.swift; sourceTree = "<group>"; };
+		AC79EE0C27D8D3C30008CD71 /* DailyWaterBudget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWaterBudget.swift; sourceTree = "<group>"; };
 		AC7A97F22766579200C8EB4D /* SimTanka-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimTanka-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7A97F52766579200C8EB4D /* SimTanka_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimTanka_iOSApp.swift; sourceTree = "<group>"; };
-		AC7A97F72766579200C8EB4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC7A97F92766579300C8EB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC7A97FC2766579300C8EB4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC7A97FE2766579300C8EB4D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		AC7A98012766579300C8EB4D /* SimTanka_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimTanka_iOS.xcdatamodel; sourceTree = "<group>"; };
+		AC7BA815278C4F42006F7A00 /* DisplayRainNOAAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayRainNOAAView.swift; sourceTree = "<group>"; };
+		AC7CF6C7290EB0520059920C /* LocationRWHSandMetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRWHSandMetView.swift; sourceTree = "<group>"; };
+		AC8670B92916915F00608933 /* FindMetStationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMetStationModel.swift; sourceTree = "<group>"; };
+		AC8E58F1276CB3B500555811 /* SetUpLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpLocationView.swift; sourceTree = "<group>"; };
+		AC8E58F6276CC0B000555811 /* TankaUnitsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TankaUnitsModel.swift; sourceTree = "<group>"; };
+		AC94F89128536EFA00B31361 /* PerformanceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceCardView.swift; sourceTree = "<group>"; };
+		AC9B138E27BD13CD00D0F443 /* MonthlyPerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyPerformanceView.swift; sourceTree = "<group>"; };
+		AC9B139027BD167A00D0F443 /* PerformanceRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceRowView.swift; sourceTree = "<group>"; };
+		ACB58126285DB62500F1C84A /* WaterDiaryEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDiaryEditView.swift; sourceTree = "<group>"; };
+		ACB8F293291249B100240E6F /* RWHSMetLocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWHSMetLocationViewModel.swift; sourceTree = "<group>"; };
+		ACB97A5A2779FF3C00A1699E /* PrefernceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefernceView.swift; sourceTree = "<group>"; };
+		ACB97A5C277A1D5500A1699E /* SimTankaMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimTankaMapView.swift; sourceTree = "<group>"; };
+		ACB97A5E277A20B900A1699E /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		ACBB7220278EF5F4004CCBC4 /* MonthlyRainfallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyRainfallView.swift; sourceTree = "<group>"; };
+		ACBD526E2910073800D24741 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		ACC09F2328A28DE600095E2E /* DailyRainRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRainRowView.swift; sourceTree = "<group>"; };
+		ACD0567B283F76C800ACEE4F /* DemandRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemandRowView.swift; sourceTree = "<group>"; };
+		ACDE826F2821498A00F144A4 /* PerformanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceModel.swift; sourceTree = "<group>"; };
+		ACE56CA62859E26D00393BB2 /* WaterDiaryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDiaryRowView.swift; sourceTree = "<group>"; };
+		ACE56CA82859EA4E00393BB2 /* WaterDiaryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDiaryListView.swift; sourceTree = "<group>"; };
+		ACE56CAA2859EF2500393BB2 /* WaterDiaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterDiaryModel.swift; sourceTree = "<group>"; };
+		ACEBF5BC279062E900023043 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		ACF3DC762796ECB00019EB13 /* AnnualRainRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnualRainRowView.swift; sourceTree = "<group>"; };
+		ACFC09E628364767007714F8 /* DemandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemandModel.swift; sourceTree = "<group>"; };
+		ACFC2F92276B5EE000F665E8 /* SettingUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +124,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC01C7A827DE088000AA099C /* Performance */ = {
+			isa = PBXGroup;
+			children = (
+				AC01C7A927DE08A100AA099C /* PerformanceView.swift */,
+				ACDE826F2821498A00F144A4 /* PerformanceModel.swift */,
+				AC94F89128536EFA00B31361 /* PerformanceCardView.swift */,
+			);
+			path = Performance;
+			sourceTree = "<group>";
+		};
+		AC080D8727B14B5B002651D6 /* RWHS */ = {
+			isa = PBXGroup;
+			children = (
+				AC080D8827B14BAA002651D6 /* RWHSView.swift */,
+				AC080D8A27B15084002651D6 /* RWHSviewModel.swift */,
+				AC9B138E27BD13CD00D0F443 /* MonthlyPerformanceView.swift */,
+				AC9B139027BD167A00D0F443 /* PerformanceRowView.swift */,
+				AC244D6128674FCD0030261E /* RwhsPerformanceView.swift */,
+			);
+			path = RWHS;
+			sourceTree = "<group>";
+		};
+		AC16A7D32767797400488297 /* NOAARainFall */ = {
+			isa = PBXGroup;
+			children = (
+				AC16A7D4276779D000488297 /* DownLoadRainfall.swift */,
+				AC16A7D627677D7F00488297 /* DailyRainfallStruc.swift */,
+				AC7BA815278C4F42006F7A00 /* DisplayRainNOAAView.swift */,
+				ACBB7220278EF5F4004CCBC4 /* MonthlyRainfallView.swift */,
+				ACF3DC762796ECB00019EB13 /* AnnualRainRowView.swift */,
+				AC584E8F279AEB6E0070CF44 /* MontlyRainRowView.swift */,
+				AC527DC928A1225200B382B9 /* DailyRainfallView.swift */,
+				ACC09F2328A28DE600095E2E /* DailyRainRowView.swift */,
+			);
+			path = NOAARainFall;
+			sourceTree = "<group>";
+		};
+		AC17823F291B973D00267BC6 /* Rainfall */ = {
+			isa = PBXGroup;
+			children = (
+				AC178240291B976A00267BC6 /* RainfallView.swift */,
+			);
+			path = Rainfall;
+			sourceTree = "<group>";
+		};
+		AC53EE442858B2DC0061E641 /* Water Diary */ = {
+			isa = PBXGroup;
+			children = (
+				AC53EE452858B3A60061E641 /* WaterDiaryAddView.swift */,
+				ACE56CA62859E26D00393BB2 /* WaterDiaryRowView.swift */,
+				ACE56CA82859EA4E00393BB2 /* WaterDiaryListView.swift */,
+				ACE56CAA2859EF2500393BB2 /* WaterDiaryModel.swift */,
+				ACB58126285DB62500F1C84A /* WaterDiaryEditView.swift */,
+			);
+			path = "Water Diary";
+			sourceTree = "<group>";
+		};
+		AC651C9F27A17ED500837342 /* Water Budget */ = {
+			isa = PBXGroup;
+			children = (
+				AC79EE0C27D8D3C30008CD71 /* DailyWaterBudget.swift */,
+				ACFC09E628364767007714F8 /* DemandModel.swift */,
+				AC78850B283E49EA001E4C9A /* DailyBudgetView.swift */,
+				ACD0567B283F76C800ACEE4F /* DemandRowView.swift */,
+			);
+			path = "Water Budget";
+			sourceTree = "<group>";
+		};
+		AC6CE4E627AA95F700E998AA /* Simulation */ = {
+			isa = PBXGroup;
+			children = (
+				AC6CE4E727AA961A00E998AA /* SimTanka.swift */,
+			);
+			path = Simulation;
+			sourceTree = "<group>";
+		};
 		AC7A97E92766579200C8EB4D = {
 			isa = PBXGroup;
 			children = (
@@ -55,12 +219,23 @@
 		AC7A97F42766579200C8EB4D /* SimTanka-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				AC53EE442858B2DC0061E641 /* Water Diary */,
+				AC01C7A827DE088000AA099C /* Performance */,
+				AC080D8727B14B5B002651D6 /* RWHS */,
+				AC6CE4E627AA95F700E998AA /* Simulation */,
+				AC651C9F27A17ED500837342 /* Water Budget */,
+				ACEBF5BB279062CB00023043 /* Utility */,
+				AC8E58F5276CC07800555811 /* User Preferences */,
+				AC8E58F0276CB39E00555811 /* Location */,
+				AC17823F291B973D00267BC6 /* Rainfall */,
+				ACFC2F91276B5E5300F665E8 /* SettingUp */,
+				AC16A7D32767797400488297 /* NOAARainFall */,
 				AC7A97F52766579200C8EB4D /* SimTanka_iOSApp.swift */,
-				AC7A97F72766579200C8EB4D /* ContentView.swift */,
 				AC7A97F92766579300C8EB4D /* Assets.xcassets */,
 				AC7A97FE2766579300C8EB4D /* Persistence.swift */,
 				AC7A98002766579300C8EB4D /* SimTanka_iOS.xcdatamodeld */,
 				AC7A97FB2766579300C8EB4D /* Preview Content */,
+				AC0E20A9276767B900E456E8 /* StartPage.swift */,
 			);
 			path = "SimTanka-iOS";
 			sourceTree = "<group>";
@@ -71,6 +246,51 @@
 				AC7A97FC2766579300C8EB4D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC8E58F0276CB39E00555811 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				AC8E58F1276CB3B500555811 /* SetUpLocationView.swift */,
+				AC3AF700276F5C6B009BF379 /* LocationModel.swift */,
+				AC3AF702276F5D12009BF379 /* MetStationNOAA.swift */,
+				AC3AF704276F5DE1009BF379 /* MetStationNetworkNOAA.swift */,
+				AC3AF706276F779F009BF379 /* LocationViewModel.swift */,
+				ACB97A5C277A1D5500A1699E /* SimTankaMapView.swift */,
+				ACB97A5E277A20B900A1699E /* MapViewModel.swift */,
+				AC294CD22783476C0010860A /* NameLocationView.swift */,
+				AC7CF6C7290EB0520059920C /* LocationRWHSandMetView.swift */,
+				ACBD526E2910073800D24741 /* LocationManager.swift */,
+				ACB8F293291249B100240E6F /* RWHSMetLocationViewModel.swift */,
+				AC8670B92916915F00608933 /* FindMetStationModel.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		AC8E58F5276CC07800555811 /* User Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				AC8E58F6276CC0B000555811 /* TankaUnitsModel.swift */,
+				ACB97A5A2779FF3C00A1699E /* PrefernceView.swift */,
+			);
+			path = "User Preferences";
+			sourceTree = "<group>";
+		};
+		ACEBF5BB279062CB00023043 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				ACEBF5BC279062E900023043 /* Helper.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		ACFC2F91276B5E5300F665E8 /* SettingUp */ = {
+			isa = PBXGroup;
+			children = (
+				ACFC2F92276B5EE000F665E8 /* SettingUpView.swift */,
+				AC6D1C94286B1651005F5D36 /* StartUpView.swift */,
+			);
+			path = SettingUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +363,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB97A5B2779FF3C00A1699E /* PrefernceView.swift in Sources */,
+				ACE56CA72859E26D00393BB2 /* WaterDiaryRowView.swift in Sources */,
+				AC16A7D5276779D000488297 /* DownLoadRainfall.swift in Sources */,
+				AC7BA816278C4F42006F7A00 /* DisplayRainNOAAView.swift in Sources */,
 				AC7A97FF2766579300C8EB4D /* Persistence.swift in Sources */,
-				AC7A97F82766579200C8EB4D /* ContentView.swift in Sources */,
+				ACE56CAB2859EF2500393BB2 /* WaterDiaryModel.swift in Sources */,
+				AC79EE0D27D8D3C30008CD71 /* DailyWaterBudget.swift in Sources */,
+				AC0E20AA276767B900E456E8 /* StartPage.swift in Sources */,
+				AC9B138F27BD13CD00D0F443 /* MonthlyPerformanceView.swift in Sources */,
+				ACF3DC772796ECB00019EB13 /* AnnualRainRowView.swift in Sources */,
+				ACB8F294291249B100240E6F /* RWHSMetLocationViewModel.swift in Sources */,
+				ACB58127285DB62500F1C84A /* WaterDiaryEditView.swift in Sources */,
+				AC16A7D727677D7F00488297 /* DailyRainfallStruc.swift in Sources */,
+				ACB97A5D277A1D5500A1699E /* SimTankaMapView.swift in Sources */,
+				AC584E90279AEB6E0070CF44 /* MontlyRainRowView.swift in Sources */,
+				AC9B139127BD167A00D0F443 /* PerformanceRowView.swift in Sources */,
+				AC080D8927B14BAA002651D6 /* RWHSView.swift in Sources */,
+				ACEBF5BD279062E900023043 /* Helper.swift in Sources */,
+				ACBD526F2910073800D24741 /* LocationManager.swift in Sources */,
+				AC294CD32783476C0010860A /* NameLocationView.swift in Sources */,
+				ACBB7221278EF5F4004CCBC4 /* MonthlyRainfallView.swift in Sources */,
+				AC527DCA28A1225200B382B9 /* DailyRainfallView.swift in Sources */,
+				AC3AF701276F5C6B009BF379 /* LocationModel.swift in Sources */,
+				AC94F89228536EFA00B31361 /* PerformanceCardView.swift in Sources */,
+				ACFC2F93276B5EE000F665E8 /* SettingUpView.swift in Sources */,
+				AC53EE462858B3A60061E641 /* WaterDiaryAddView.swift in Sources */,
+				AC6D1C95286B1651005F5D36 /* StartUpView.swift in Sources */,
+				AC8670BA2916915F00608933 /* FindMetStationModel.swift in Sources */,
+				ACD0567C283F76C800ACEE4F /* DemandRowView.swift in Sources */,
+				AC8E58F2276CB3B500555811 /* SetUpLocationView.swift in Sources */,
+				AC6CE4E827AA961A00E998AA /* SimTanka.swift in Sources */,
+				ACFC09E728364767007714F8 /* DemandModel.swift in Sources */,
+				AC3AF705276F5DE1009BF379 /* MetStationNetworkNOAA.swift in Sources */,
+				AC178241291B976A00267BC6 /* RainfallView.swift in Sources */,
+				AC080D8B27B15084002651D6 /* RWHSviewModel.swift in Sources */,
+				ACC09F2428A28DE600095E2E /* DailyRainRowView.swift in Sources */,
+				ACB97A5F277A20B900A1699E /* MapViewModel.swift in Sources */,
 				AC7A97F62766579200C8EB4D /* SimTanka_iOSApp.swift in Sources */,
+				AC8E58F7276CC0B000555811 /* TankaUnitsModel.swift in Sources */,
+				AC78850C283E49EA001E4C9A /* DailyBudgetView.swift in Sources */,
+				AC7CF6C8290EB0520059920C /* LocationRWHSandMetView.swift in Sources */,
+				AC3AF703276F5D12009BF379 /* MetStationNOAA.swift in Sources */,
+				AC01C7AA27DE08A100AA099C /* PerformanceView.swift in Sources */,
+				AC3AF707276F779F009BF379 /* LocationViewModel.swift in Sources */,
+				ACDE82702821498A00F144A4 /* PerformanceModel.swift in Sources */,
+				AC244D6228674FCD0030261E /* RwhsPerformanceView.swift in Sources */,
 				AC7A98022766579300C8EB4D /* SimTanka_iOS.xcdatamodeld in Sources */,
+				ACE56CA92859EA4E00393BB2 /* WaterDiaryListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -259,7 +523,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
