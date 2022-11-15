@@ -99,7 +99,7 @@ class DownLoadRainfallNOAA: NSObject, ObservableObject, NSFetchedResultsControll
 
         // url request
         var request = URLRequest(url: url)
-        let token = "JxkmOioEJdncYVlrTERqCpjrnpyuVcuB"
+        let token = ""
                
         request.addValue(token, forHTTPHeaderField: "token")
         

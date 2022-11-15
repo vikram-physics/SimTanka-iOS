@@ -141,7 +141,7 @@ extension FindMetStationModel {
             "datacategoryid": "PRCP"
         ]
         
-        let token = "JxkmOioEJdncYVlrTERqCpjrnpyuVcuB"   // token given by NOAA
+        let token = ""   // token given by NOAA
         let baseURL = URL(string: "https://www.ncdc.noaa.gov/cdo-web/api/v2/stations?")!
         
         let url = baseURL.withQueries(query)!
